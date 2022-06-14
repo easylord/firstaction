@@ -1,0 +1,629 @@
+*{
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.ui.cards > .card > .image {
+  height: 250px;
+  padding: 20px;
+  background: #fff;
+  margin: auto;
+}
+.ui.cards > .card > .image > img {
+  height: 100%;
+  max-width: 100%;
+  width: auto;
+}
+.ui.cards > .card > .content > .header {
+  height: 48px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+.ui.cards > .card > .content > .description {
+  height: 36px;
+  margin-bottom: 0px;
+  overflow: hidden;
+}
+.ui.cards > .card .meta.price {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #333;
+  font-weight: 600;
+}
+
+.ui.cards > .card .meta.price > a {
+  font-size: 1.3rem;
+  color: #222;
+}
+
+.ui.menu.fixed {
+  height: 60px;
+  padding-top: 15px;
+}
+
+.ui.grid.container {
+  margin-top: 45px;
+}
+
+.ui.grid > .row {
+  background: #fff;
+}
+.ui.grid > .row > .column.lp {
+  padding: 20px 40px 20px 20px;
+  align-self: flex-start !important;
+}
+.ui.grid > .row > .column.rp {
+  padding: 20px 20px 20px 40px;
+  text-align: left;
+  align-self: flex-start !important;
+}
+
+.ui.grid > .row > .column > img,
+.ui.grid > .row > img {
+  height: 100%;
+}
+.ui.placeholder .header:not(:first-child):before,
+.ui.placeholder .image:not(:first-child):before,
+.ui.placeholder .paragraph:not(:first-child):before {
+  display: none;
+}
+
+.ui.label,
+.ui.labels .label {
+  font-size: 22px;
+}
+
+.column.rp h1 {
+  color: #333;
+}
+.column.rp p {
+  font-size: 18px;
+  color: #777;
+}
+.ui.placeholder.segment .column .button,
+.ui.placeholder.segment .column .field,
+.ui.placeholder.segment .column textarea,
+.ui.placeholder.segment .column > .ui.input {
+  background-color: #d3a2ad;
+  border: 1px solid #ff3e6c;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 0;
+}
+.bodyfirst {
+  background-color: #fff;
+  color: white;
+  padding: 40px;
+  flex-direction: row;
+  display: flex;
+  height: 60px;
+  
+}
+.logoImage {
+  height: 51px;
+  width: 178px;
+  padding-left: 70px;
+  
+}
+.rowclass {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 150px;
+  padding-top: 10px;
+}
+.headertext{
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 60px;
+  font-family: "Aeonik";
+  color: #000;
+}
+.contactbutton{ 
+  font-size: 14px;
+  font-family: Aeonik;
+  font-weight: 400;
+  margin-left: 210px;
+  background-color: #F99300;
+  width: 142px;
+  height: 37px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  border-color: white;
+}
+.firstsection{
+  flex-direction: row;
+  display: flex;
+}
+.comp1 {
+  background: linear-gradient(181.18deg, rgba(255, 255, 255, 0.86) 41.44%, rgba(160, 186, 61, 0) 98.99%);  flex: 50%;
+  height: 600px;
+  flex: 40%;
+  background-color: #eff8cb;
+
+}
+.comp2 {
+  background: linear-gradient(181.18deg, rgba(255, 255, 255, 0.86) 41.44%, rgba(160, 186, 61, 0) 98.99%);  flex: 50%;
+  background-color: #eff8cb;;
+  height: 600px;
+  flex: 60%;
+  right: 20px;
+  display: flex;
+  flex-direction: row;
+
+
+}
+.firstfont {
+  padding-top: 150px;
+  padding-left: 80px;
+  width: 415px;
+height: 150px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 52px;
+line-height: 50px;
+}
+.secondfont {
+  width: 405px;
+height: 44px;
+
+font-family: 'Aeonik';
+font-style: normal;
+font-weight: 250;
+font-size: 18px;
+line-height: 22px;
+color: #000000;
+padding-left: 80px;
+padding-top: 20px;
+}
+.buttonstyle{
+  flex-direction: row;
+  display: flex;
+  padding-left: 80px;
+  padding-top: 20px;
+  
+}
+.buttonstyles{
+  background-color: #F99300;
+  width: 142px;
+  height: 37px;
+  border-radius: 5px;
+  border-color: transparent;
+
+}
+.buttonstyles2{
+  background-color: #F99300;
+  width: 142px;
+  height: 37px;
+  margin-left: 20px;
+  border-radius: 5px;
+  border-color: white;
+}
+.firstBanner{
+  height: 553px;
+  width: 650px;
+}
+
+.logostyle {
+  display: flex;
+  flex-direction: column;
+  padding-top: 160px;
+  padding-left: 30px;
+
+}
+.logopause {
+  margin-top: 15px;
+}
+
+.secondsection {
+  flex-direction: row;
+  display: flex;
+  background-color: yellow;
+  height: 350px;
+
+}
+.comp11 {
+  height: 600px;
+  background: linear-gradient(180deg, #edf5ce 0%, #fcfbfa 100%);
+  flex: 50px;
+
+}
+.comp12 {
+  height: 600px;
+  flex: 50px;
+  background: linear-gradient(180deg, #edf5ce 0%, #fcfbfa 100%);
+  display: flex;
+  flex-direction: row;
+  
+
+}
+.gradient {
+  left: 200px;
+  height: 700px;
+  width: 700px;
+  position: absolute;
+  bottom: -240px;
+  
+}
+.sectionimages {
+
+  height: 400px;
+  width: 503px;
+  margin-top: 80px;
+  margin-left: 60px;
+
+}
+.aboutus {
+height: 14px;
+
+font-family: 'Aeonik';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.7em;
+
+color: #A0BA3D
+}
+.aboutus2{ 
+  width: 358px;
+height: 89px;
+
+font-family: 'Aeonik';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 30px;
+margin-bottom: 50px;
+/* or 115% */
+
+
+color: #000000;
+}
+.aboutus3 {
+  width: 295px;
+height: 88px;
+
+font-family: 'Aeonik';
+font-style: normal;
+font-weight: 250;
+font-size: 14px;
+line-height: 22px;
+margin-top: 20px;
+margin-bottom: 30px;
+/* or 157% */
+
+
+color: #000000;
+}
+.aboutdiv{
+  margin-top: 80px;
+  height: 300px;
+  width: 400px;
+  margin-left: 60px;
+}
+.eclipse {
+  position: absolute;
+  height: 34px;
+  width: 34px;
+}
+.thirdsection {
+  height: 600px;
+  background: linear-gradient(181.18deg, rgba(255, 255, 255, 0.86) 41.44%, rgba(160, 186, 61, 0) 98.99%);
+  display: flex;
+  flex-direction: row;
+  margin-top: 200px;
+}
+.thirdsection1 {
+  flex: 50%;
+  background-color: white;
+}
+.thirdsection2 {
+  flex: 50%;
+  background-color: white;
+}
+.thirdsection3{
+  height: 300px;
+  width: 400px;
+
+}
+.sectionimage {
+  height: 600px;
+  width: 500px;
+  margin-left: 60px;
+  margin-bottom: 180px;
+}
+.sectionimage1 {
+  height: 600px;
+  width: 500px;
+  margin-left: 60px;
+  margin-bottom: 500px;
+}
+
+.fourthsections {
+  height: 386px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  
+  background: linear-gradient(180deg, #A0BA3D 0%, #F99300 100%);
+
+}
+.fourthsection1{ 
+  flex: 30%;
+}
+.fourthsection2{ 
+  flex: 70%;
+}
+.fourthsection3 {
+     height: 119px;
+     width: 350px;
+     margin-top: 120px;
+     margin-left: 70px;
+}
+.sectionbox{ 
+  height: 240px;
+  width: 716px;
+  margin-top: 80px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+
+  
+}
+.fourthicon {
+  height: 30px;
+  width: 30px;
+  background-color: #AD0214;
+  margin-top: 90px;
+  border-radius: 4px;
+  align-items: center;
+  align-content: center;
+}
+.rectangle6{
+  height: 200px;
+  width: 300px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.innertext {
+  width: 76px;
+height: 22px;
+
+font-family: 'Aeonik';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+
+color: #FFFFFF
+}
+.innertext2{ 
+height: 22px;
+
+font-family: 'Aeonik';
+font-style: normal;
+font-weight: 250;
+font-size: 10px;
+line-height: 22px;
+/* identical to box height, or 220% */
+
+
+color: #FFFFFF;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-top: -50px;
+  position: absolute;
+}
+.innerbutton{
+  background-color: #F99300;
+  width: 107px;
+height: 35px;
+  border-radius: 4px;
+  border-color:transparent;
+  color: #fff;
+}
+.fifthsection1 {
+  flex: 50%;
+  background: linear-gradient(180deg, #f7f8f5 0%, #e8f8c9 100%);
+}
+.fifthsection2 {
+  flex: 50%;
+  background: linear-gradient(180deg, #f7f8f5 0%, #e8f8c9 100%);
+}
+.fifthsection {
+  height: 600px;
+  background: linear-gradient(181.18deg, rgba(255, 255, 255, 0.86) 41.44%, rgba(160, 186, 61, 0) 98.99%);
+  display: flex;
+  flex-direction: row;
+}
+.questions {
+  width: 428px;
+height: 100px;
+left: 184px;
+font-family: 'Aeonik';
+font-style: normal;
+font-weight: 700;
+font-size: 52px;
+line-height: 50px;
+}
+.questionbox {
+  height: 200px;
+  width: 400px;
+  background-color: transparent;
+  margin-left: 180px;
+  margin-top: 150px;
+}
+.phonenumber{
+  width: 346px;
+height: 50px;
+font-family: 'Aeonik';
+font-style: normal;
+font-weight: 700;
+font-size: 39px;
+line-height: 50px;
+/* identical to box height, or 128% */
+
+
+color: #000000;
+}
+
+.create {
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+  font-size: 10px;
+}
+.create h2 {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 30px;
+}
+.create input, .create select {
+  width: 445px;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  border-radius: 4px;
+
+}
+.create button {
+  background: #F99300;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  
+}
+.formdiv {
+  margin-top: 70px;
+}
+.create textarea {
+  width: 445px;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  height: 204px;
+  border-radius: 4px;
+
+}
+.sixthSection{
+  height: 300px;
+  background-color: tomato;
+  display: flex;
+  flex-direction: row;
+}
+.sixthSection1 {
+  flex: 45px;
+  background-color: #771129;
+}
+.sixthSection2 {
+  flex: 55px;
+  background-color: #771129;
+}
+.sixthText {
+width: 336px;
+height: 38px;
+font-family: 'Aeonik';
+font-style: normal;
+font-weight: 250;
+font-size: 16px;
+line-height: 19px;
+padding-left: 50px;
+padding-top: 30px;
+color: #FFFFFF
+}
+.lastsection {
+  display: flex;
+  flex-direction: row;
+}
+.lastsectiontext {
+  width: 142px;
+height: 19px;
+font-family: 'Aeonik';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+padding-top: 50px;
+padding-left: 40px;
+
+color: #FAFBFE;
+}
+.sixthsection3 {
+  display: flex;
+  flex-direction: row;
+}
+.formsection {
+  padding-top: 30px;
+
+  width: 400px;
+  height: 5px;
+  border-radius: 4px;
+  
+}
+.formjare {
+  padding-top: 50px;
+}
+
+.buttonlast{
+padding: 10px;
+gap: 10px;
+position: absolute;
+width: 142px;
+height: 37px;
+background-color: #F99300;
+}
+
+.relast {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  width: 550px;
+  background-color: #771129;
+  margin-left: 35px;
+  margin-top: 30px;
+}
+
+.lastsecpart {
+  width: 92px;
+height: 19px;
+font-family: 'Aeonik';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #FAFBFE;
+
+}
+
+.smalltext{
+  font-family: 'Aeonik';
+font-style: normal;
+font-weight: 250;
+font-size: 14px;
+line-height: 200%;
+width: 79px;
+/* or 28px */
+
+
+color: #FAFBFE;
+}
